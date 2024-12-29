@@ -20,6 +20,8 @@ body {
     text-align: center;
     height: 300px;
     width: 500px;
+    margin-left: 20px;
+   
     
 }
 i {
@@ -31,5 +33,32 @@ i {
     border-width: 5px;
     border-style: solid;
     font-family: Courgette, monospace;
+
     
+}
+#stats {
+    background-color: rgb(133, 193, 220);
+    border-radius: 25px;
+    text-align: center;
+    width: 350px;
+    border-style: solid;
+    border-width: 5px;
+    font-family: Oleo Script, monospace, Courgette;
+    margin-left: 20px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+.flex {
+    display: flex;
+    justify-content: center;
+    
+}
+#wasd {
+   
+    font-style: bold;
 }
